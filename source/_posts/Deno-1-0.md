@@ -1,7 +1,9 @@
 ---
 title: Deno 1.0
 date: 2020-05-18 17:47:28
+categories: Deno
 tags: [Deno, JavaScript]
+description: 【譯文】Deno 1.0正式發布
 ---
 > 原文: [Deno 1.0](https://deno.land/v1) @written by Ryan Dahl, Bert Belder, and Bartek Iwańczuk
 > 譯者: naremloa
@@ -132,7 +134,7 @@ Although Deno has taken a hardline approach to simplifying the module system, ul
 
 [We continuously track the performance of Deno's HTTP server](https://deno.land/benchmarks). A hello-world Deno HTTP server does about 25k requests per second with a max latency of 1.3 milliseconds. A comparable Node program does 34k requests per second with a rather erratic max latency between 2 and 300 milliseconds.
 
-Deno的HTTP伺服器是在原生的TCP套接字(`sockets`)上用TypeScript實現的。Node’s HTTP server is written in C and exposed as high-level bindings to JavaScript.我們拒絕在Deno上綁定原生的HTTP伺服器，因為我們希望在未來能優化TCP套接字，更通俗的講是op接口。
+Deno的HTTP伺服器是在原生的TCP套接字(`sockets`)上用TypeScript實現的。Node的HTTP伺服器是用C編寫，並通過高階綁定(`high-level bindings`)的方式暴露給JavaScript。我們拒絕在Deno上綁定原生的HTTP伺服器，因為我們希望在未來能優化TCP套接字，更通俗的講是op接口。
 
 Deno's HTTP server is implemented in TypeScript on top of native TCP sockets. Node's HTTP server is written in C and exposed as high-level bindings to JavaScript. We have resisted the urge to add native HTTP server bindings to Deno, because we want to optimize the TCP socket layer, and more generally the op interface.
 

@@ -8,7 +8,7 @@ subtitle: 'FED'
 description: ''
 keywords:
 author: naremloa
-language: en
+language: "zh-TW"
 timezone: ''
 
 # URL
@@ -91,7 +91,8 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
+Plugins:
+- hexo-generator-sitemap
 ## Themes: https://hexo.io/themes/
 theme: next
 
