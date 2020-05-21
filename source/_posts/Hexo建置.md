@@ -138,15 +138,15 @@ deploy:
 
 ## 套件介紹
 
-#### hexo-generator-sitemap
+### hexo-generator-sitemap
 會在`hexo generate`的過程中，順帶生成一份`sitemap.xml`。可以給 *google search console* 做搜索優化用。
 
 注意，在 *google search console* 中提交 *sitemap* 時，填寫的網址要帶上`.xml`，如`<your url>/sitemap.xml`，不然讀取不到。
 
-#### hexo-deployer-git
+### hexo-deployer-git
 配合`hexo deploy`使用，簡化部署流程。如果不走支持的部署方式，就不需要該套件了。
 
-#### hexo-generator-searchdb
+### hexo-generator-searchdb
 提供站內搜索。支持模糊匹配，兩個關鍵字中間要有個空格隔開。
 
 ## 參考鏈接
