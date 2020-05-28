@@ -20,7 +20,7 @@ Hexo的主題這塊會有個 *submodule* 問題，如果要同時兼顧客製化
 如果沒有需要過多的客製化，推薦採用`data files`方式。相關[issue](https://github.com/iissnan/hexo-theme-next/issues/328)。
 
 這邊純紀錄改動過的設定：
-```yaml=
+```yml
 # next.yml
 # 客製化檔案路徑
 custom_file_path:
