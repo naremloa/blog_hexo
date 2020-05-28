@@ -1,5 +1,6 @@
 ---
 title: Hexo建置
+urlname: hexo_configuration
 tags:
   - Hexo
 categories: Hexo

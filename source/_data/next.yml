@@ -116,9 +116,6 @@ avatar:
   # If true, the avatar will be rotated with the cursor.
   rotated: false
 
-# Posts / Categories / Tags in sidebar.
-site_state: true
-
 # Social Links
 # Usage: `Key: permalink || icon`
 # Key is the link label showing to end users.
@@ -170,6 +167,19 @@ post_navigation: false
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
+codeblock:
+  # Code Highlight theme
+  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  # See: https://github.com/chriskempson/tomorrow-theme
+  highlight_theme: "night eighties"
+  # Add copy button on codeblock
+  copy_button:
+    enable: true
+    # Show text copy result.
+    show_result: false
+    # Available values: default | flat | mac
+    style: flat
+
 
 back2top:
   enable: true
@@ -203,7 +213,7 @@ exturl: false
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
-google_site_verification:
+google_site_verification: b6XM720gak43P3qQQ9WBX4dVmWfGsp7CIrrOpvsLwdw
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmaster
@@ -294,7 +304,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
@@ -321,3 +331,19 @@ local_search:
   unescape: false
   # Preload the search data when the page loads.
   preload: false
+
+  # ---------------------------------------------------------------
+# Third Party Plugins & Services Settings
+# See: https://theme-next.org/docs/third-party-services/
+# More plugins: https://github.com/theme-next/awesome-next
+# You may need to install dependencies or set CDN URLs in `vendors`
+# There are two different CDN providers by default:
+#   - jsDelivr (cdn.jsdelivr.net), works everywhere even in China
+#   - CDNJS (cdnjs.cloudflare.com), provided by cloudflare
+# ---------------------------------------------------------------
+pjax: true
+
+vendors:
+  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
+
+

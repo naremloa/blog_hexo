@@ -1,5 +1,6 @@
 ---
 title: Deno 1.0
+urlname: deno_1_0
 date: 2020-05-18 17:47:28
 categories: Deno
 tags: [Deno, JavaScript]
